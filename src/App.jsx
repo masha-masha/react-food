@@ -11,7 +11,7 @@ import Recepie from './pages/Recepie';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/react-food'>
         <Header />
         <main className='content container'>
           <Switch>
