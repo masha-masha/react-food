@@ -20,7 +20,7 @@ const Recepie = () => {
         <div className='recipe'>
           <img className='img' src={recipe.strMealThumb} alt={recipe.strMeal} />
           <h1>{recipe.strMeal}</h1>
-          <h6>Category: {recipe.Category}</h6>
+          <h6>Category: {recipe.strCategory}</h6>
           {recipe.strArea ? <h6>Area: {recipe.strArea}</h6> : null}
           <p>{recipe.strInstructions}</p>
           <table className='centered'>
